@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Bounce - Recycle Tennis Balls in Bloomington</title>
+    <meta name="description" content="Dead balls deserve a second bounce. Join Second Bounce in Bloomington, IN to recycle tennis balls and keep them out of landfills.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Second Bounce</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#drop-off">Drop Off</a>
+                <a href="#partner">Partner With Us</a>
+                <a href="#about">About</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+    </nav>
+
+    <header id="home" class="hero section-scroll">
+        <div class="hero-content">
+            <h1>Dead Balls Deserve a Second Bounce.</h1>
+            <p>Keep your old tennis balls out of the landfill and give them a new life right here in Bloomington.</p>
+            <a href="#drop-off" class="btn btn-primary">Find a Drop-Off Near You</a>
+        </div>
+    </header>
+
+    <section id="what-we-do" class="what-we-do section-scroll">
+        <div class="container text-center">
+            <h2>How It Works</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="icon-circle">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--primary-green)" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+                    </div>
+                    <h3>1. Collect</h3>
+                    <p>Save your flat, dead, or worn-out tennis balls.</p>
+                </div>
+                <div class="step-card">
+                    <div class="icon-circle">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--primary-green)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    </div>
+                    <h3>2. Drop Off</h3>
+                    <p>Bring them to a local public park or partner bin.</p>
+                </div>
+                <div class="step-card">
+                    <div class="icon-circle">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--primary-green)" stroke-width="2"><path d="M4 12a8 8 0 0 1 16 0"/><path d="M4 12l4-4"/><path d="M4 12l4 4"/><path d="M20 12a8 8 0 0 1-16 0"/><path d="M20 12l-4-4"/><path d="M20 12l-4 4"/></svg>
+                    </div>
+                    <h3>3. Recycle</h3>
+                    <p>We process them into new materials, avoiding local landfills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact" class="impact-section section-scroll">
+        <div class="container text-center">
+            <h2>Why It Matters</h2>
+            <div class="stat-box">
+                <span class="stat-number">300<small>M</small></span>
+                <p>tennis balls are discarded globally each year.</p>
+            </div>
+            <p class="pathos-text">
+                That's a mountain of non-biodegradable rubber sitting in our landfills for over 400 years. 
+                Our local courts bring us together; let's make sure the way we treat the game protects our home, too.
+            </p>
+        </div>
+    </section>
+
+    <section id="drop-off" class="locations-section section-scroll">
+        <div class="container">
+            <h2 class="text-center">Bloomington Drop-Off Spots</h2>
+            <div class="locations-grid">
+                <div class="location-card">
+                    <h3>Bryan Park</h3>
+                    <p>1001 S Henderson St</p>
+                    <span class="badge">Public Courts</span>
+                </div>
+                <div class="location-card">
+                    <h3>Winslow Sports Complex</h3>
+                    <p>2800 S Highland Ave</p>
+                    <span class="badge">Public Courts</span>
+                </div>
+                <div class="location-card">
+                    <h3>Southeast Park</h3>
+                    <p>1600 Sycamore Ct</p>
+                    <span class="badge">Public Courts</span>
+                </div>
+                <div class="location-card">
+                    <h3>Park Ridge</h3>
+                    <p>3421 E Longview Ave</p>
+                    <span class="badge">Public Courts</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partner" class="partner-section section-scroll">
+        <div class="container">
+            <div class="partner-content">
+                <h2>Become a Drop-Off Partner</h2>
+                <p>Are you a local court, club, rec center, or school in the 812 area? Host a bin and help us double our impact.</p>
+            </div>
+            <div class="form-container">
+                <form id="partnerForm" action="https://formspree.io/f/xaqawadb" method="POST">
+                    <div class="form-group">
+                        <label for="orgName">Organization Name</label>
+                        <input type="text" id="orgName" name="organization" required placeholder="e.g. South High School Tennis">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactName">Contact Name</label>
+                        <input type="text" id="contactName" name="name" required placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                    </div>
+                    <button type="submit" class="btn btn-secondary w-full">Sign Up</button>
+                    <p class="form-status" id="formStatus" style="display:none;">Thanks for reaching out! We'll be in touch shortly.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section section-scroll">
+        <div class="container">
+            <div class="about-content">
+                <h2>About the Founder</h2>
+                <p>I’m a junior at Bloomington High School South, and I’ve been playing tennis for nearly my whole life. After countless practices and matches, I couldn't ignore how many dead tennis balls were just ending up in the trash. That’s why I started Second Bounce back in the summer of 2025. What started as a personal project is growing into a community effort. My goal is simple: make recycling our tennis balls as easy and common as stepping onto the court.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h2 class="logo">Second Bounce</h2>
+                    <p>A community initiative founded at Bloomington High School South dedicated to keeping tennis balls out of our local Bloomington landfills.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="#home">Home</a>
+                    <a href="#drop-off">Locations</a>
+                    <a href="#partner">Partner</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Second Bounce. Bloomington, IN. Built with purpose.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
