@@ -202,6 +202,12 @@ p { font-size: 1.125rem; color: var(--text-muted); margin-bottom: 1.5rem; }
     color: var(--text-main);
 }
 
+/* Mission Section */
+.mission-section {
+    padding: 6rem 0;
+    background-color: var(--bg-color);
+}
+
 /* Impact Section */
 .impact-section {
     padding: 8rem 0;
